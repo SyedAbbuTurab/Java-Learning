@@ -6,5 +6,8 @@ public class Hello {
         int b = 10;
         int sum = a + b;
         System.out.println("Sum: " + sum);
+
+        int product = a * b;
+        System.out.println("Product: " + product);
     }
 }
