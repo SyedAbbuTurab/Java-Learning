@@ -8,7 +8,13 @@ public class RandomNum {
 		
 		int number = random.nextInt(1, 6);
 		
-		System.out.println(number);
+		System.out.println("Integer random number " + number);
+		
+		double doubleRandom = random.nextDouble(1, 10);
+		System.out.println("Decimal random number " + doubleRandom);
+		
+		boolean booleanRandom = random.nextBoolean();
+		System.out.println("Boolean random value(True/False) " + booleanRandom);
 	}
 
 }
