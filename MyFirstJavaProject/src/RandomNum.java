@@ -6,7 +6,7 @@ public class RandomNum {
 		// TODO Auto-generated method stub
 		Random random = new Random();
 		
-		int number = random.nextInt();
+		int number = random.nextInt(1, 6);
 		
 		System.out.println(number);
 	}
