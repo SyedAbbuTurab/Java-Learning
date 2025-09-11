@@ -30,6 +30,8 @@ public class Arrays {
 		getElements(fruits);
 		getElementsAlternateForLoop(fruits);
 		
+		
+		
 }
 	static void getElements(String[] fruits) {
 		for (int i = 0; i < fruits.length; i++) {
