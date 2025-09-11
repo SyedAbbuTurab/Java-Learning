@@ -28,10 +28,18 @@ public class Arrays {
 		System.out.println(fruits.length);
 		
 		getElements(fruits);
+		getElementsAlternateForLoop(fruits);
+		
 }
 	static void getElements(String[] fruits) {
 		for (int i = 0; i < fruits.length; i++) {
 			System.out.println(fruits[i]);
+		}
+	}
+	
+	static void getElementsAlternateForLoop(String[] fruits) {
+		for(String fruit : fruits) {
+			System.out.print(fruit + " ");
 		}
 	}
 }
