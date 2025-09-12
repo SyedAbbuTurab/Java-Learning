@@ -13,16 +13,25 @@ public class Main {
 		// System.out.println(car.isRunning);
 		
 		// Constructors
-		Student student1 = new Student("Sponge", 30, 2.2);
-		Student student2 = new Student("Pat", 34, 2.9);
-		Student student3 = new Student("Abbu Turab", 28, 4.0);
+//		Student student1 = new Student("Sponge", 30, 2.2);
+//		Student student2 = new Student("Pat", 34, 2.9);
+//		Student student3 = new Student("Abbu Turab", 28, 4.0);
+//		
+//		System.out.println(student1.name);
+//		System.out.println(student2.name);
+//		System.out.println(student3.name + " has GPA of " + student3.gpa);
+//		
+//		student1.study();
 		
-		System.out.println(student1.name);
-		System.out.println(student2.name);
-		System.out.println(student3.name + " has GPA of " + student3.gpa);
+		// Constructor overloading
 		
-		student1.study();
+		User user1 = new User();
+		User user2 = new User("Abbu Turab");
+		User user3 = new User("Abbu Turab", "abbuturabsyed@gmail.com");
 		
+		System.out.println(user1.username);
+		System.out.println(user2.username);
+		System.out.println(user3.email);
 	}
 
 }
