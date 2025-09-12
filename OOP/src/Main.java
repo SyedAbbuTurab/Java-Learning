@@ -32,15 +32,24 @@ public class Main {
 //		System.out.println(user2.username);
 //		System.out.println(user3.email);
 		
-		carObj car1 = new carObj("Mustang", "Black");
-		carObj car2 = new carObj("GTR", "Yellow");
-		carObj car3 = new carObj("Hellcat", "Blue");
 		
+		// Array of Objects
+//		carObj car1 = new carObj("Mustang", "Black");
+//		carObj car2 = new carObj("GTR", "Yellow");
+//		carObj car3 = new carObj("Hellcat", "Blue");
+//		
+//		
+//		carObj[] cars = {car1, car2, car3};
+//		
+//		for(int i = 0; i < cars.length; i++) {
+//			cars[i].drive();
+//		}
 		
-		carObj[] cars = {car1, car2, car3};
+		String test = "Hello World";
 		
-		for(int i = 0; i < cars.length; i++) {
-			cars[i].drive();
+		for( int i = 0; i < test.length(); i++) {
+			char c = test.charAt(i);
+			System.out.print(c + "\n");
 		}
 		
 		
