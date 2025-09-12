@@ -24,14 +24,32 @@ public class Main {
 //		student1.study();
 		
 		// Constructor overloading
+//		User user1 = new User();
+//		User user2 = new User("Abbu Turab");
+//		User user3 = new User("Abbu Turab", "abbuturabsyed@gmail.com");
+//		
+//		System.out.println(user1.username);
+//		System.out.println(user2.username);
+//		System.out.println(user3.email);
 		
-		User user1 = new User();
-		User user2 = new User("Abbu Turab");
-		User user3 = new User("Abbu Turab", "abbuturabsyed@gmail.com");
+		carObj car1 = new carObj("Mustang", "Black");
+		carObj car2 = new carObj("GTR", "Yellow");
+		carObj car3 = new carObj("Hellcat", "Blue");
 		
-		System.out.println(user1.username);
-		System.out.println(user2.username);
-		System.out.println(user3.email);
+		
+		carObj[] cars = {car1, car2, car3};
+		
+		for(int i = 0; i < cars.length; i++) {
+			cars[i].drive();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
