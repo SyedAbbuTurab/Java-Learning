@@ -9,6 +9,11 @@ public class Main {
 		cat.eat();
 		
 		cat.speak();
+		
+		Plant plant = new Plant();
+		
+		System.out.println(plant.isAlive);
+		plant.photosynthesises();
 	}
 
 }
