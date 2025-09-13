@@ -15,7 +15,7 @@ public class Main {
 //		System.out.println(plant.isAlive);
 //		plant.photosynthesises();
 		
-		Person person = new Person("Spongebob", "Squarepants");
+//		Person person = new Person("Spongebob", "Squarepants");
 		
 //		person.displayFullName();
 		
@@ -24,5 +24,15 @@ public class Main {
 		student.displayFullName();
 		System.out.println(student.gpa);
 		student.showGpa();
+		
+		Employee employee = new Employee("Abbu Turab", "Syed", 92000);
+		
+		employee.displayFullName();
+		employee.displaySalary();
+		
+		
+		
+		
+		
 	}
 }
