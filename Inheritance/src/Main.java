@@ -23,11 +23,6 @@ public class Main {
 		
 		student.displayFullName();
 		System.out.println(student.gpa);
-	
+		student.showGpa();
 	}
-	
-	
-	
-	
-
 }
