@@ -52,6 +52,13 @@ public class Main {
 		// 	System.out.print(c);
 		// }
 		
+		Friend friend1 = new Friend("Tom");
+		Friend friend2 = new Friend("Jerry");
+		
+		System.out.println(Friend.numberOfFriends);
+		
+		Friend.displayFriends();
+		
 		
 		
 		
