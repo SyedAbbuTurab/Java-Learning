@@ -45,12 +45,12 @@ public class Main {
 //			cars[i].drive();
 //		}
 		
-		String test = "Hello World";
+		// String test = "Hello World";
 		
-		for( int i = 0; i < test.length(); i++) {
-			char c = test.charAt(i);
-			System.out.print(c + "\n");
-		}
+		// for(int i = 0; i < test.length; i++) {
+		// 	char c = test.charAt(i);
+		// 	System.out.print(c);
+		// }
 		
 		
 		
