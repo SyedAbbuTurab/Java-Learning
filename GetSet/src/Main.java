@@ -20,7 +20,10 @@ public class Main {
 		
 		Library library = new Library("The NYC Public Library", 1982, book);
 		
-		System.out.println(book1.displayInfo());
+//		System.out.println(book1.displayInfo());
+		library.displayInfo();
+		
+		
 		
 	}
 }

@@ -11,7 +11,14 @@ public class Library {
 		this.books = books;
 	}
 	
-	String displayInfo() {
-		return this.name + " " + this.year;
+	void displayInfo() {
+		System.out.println(this.name + " " + this.year);
+		System.out.println("The available books are: ");
+		
+		for(Books book : books) {
+			System.out.println(book.displayInfo());
+		}
 	}
+	
+	
 }
