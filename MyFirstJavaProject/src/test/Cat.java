@@ -2,6 +2,6 @@ package test;
 
 
 
-public class Cat extends A {
+public class Cat {
 	
 }
