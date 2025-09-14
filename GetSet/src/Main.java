@@ -23,10 +23,10 @@ public class Main {
 //		System.out.println(book1.displayInfo());
 //		library.displayInfo();
 		
-		Vehicle carVehicle = new Vehicle("Corvette", "New", 2025, "V8");
+		Vehicle carVehicle = new Vehicle("Chevy", "Corvette", 2025, "V8");
 		
 		System.out.println(carVehicle.name);
-		System.out.println(carVehicle.engine.type);
+		carVehicle.start();
 		
 		
 	}

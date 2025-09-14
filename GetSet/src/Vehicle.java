@@ -12,4 +12,9 @@ public class Vehicle {
 		this.year = year;
 		this.engine = new Engine(engineType);
 	}
+	
+	void start() {
+		this.engine.start();
+		System.out.println("The " + model + " is runnnig");
+	}
 }
