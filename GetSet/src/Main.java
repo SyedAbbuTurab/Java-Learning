@@ -21,8 +21,12 @@ public class Main {
 		Library library = new Library("The NYC Public Library", 1982, book);
 		
 //		System.out.println(book1.displayInfo());
-		library.displayInfo();
+//		library.displayInfo();
 		
+		Vehicle carVehicle = new Vehicle("Corvette", "New", 2025, "V8");
+		
+		System.out.println(carVehicle.name);
+		System.out.println(carVehicle.engine.type);
 		
 		
 	}
