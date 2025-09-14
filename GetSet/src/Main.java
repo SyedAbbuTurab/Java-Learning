@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 	public static void main(String[] args) {
@@ -25,9 +27,27 @@ public class Main {
 		
 		Vehicle carVehicle = new Vehicle("Chevy", "Corvette", 2025, "V8");
 		
-		System.out.println(carVehicle.name);
-		carVehicle.start();
+//		System.out.println(carVehicle.name);
+//		carVehicle.start();
 		
+		// ArrayList Examples
+		
+		ArrayList<String> fruits = new ArrayList<>();
+		
+		fruits.add("Apple");
+		fruits.add("Strawberries");
+		fruits.add("Coconut");
+		
+		System.out.println(fruits);
+		System.out.println(fruits.isEmpty());
+//		fruits.remove(0);
+		System.out.println(fruits.size());
+		Collections.sort(fruits);
+		System.out.println(fruits);
+		
+		for( String fruit : fruits) {
+			System.out.println(fruit);
+		}
 		
 	}
 }
