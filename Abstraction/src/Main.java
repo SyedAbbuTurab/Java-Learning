@@ -4,7 +4,11 @@ public class Main {
 		
 		Circle circle = new Circle(2.5);
 		
-		circle.display();
+//		circle.display();
 		System.out.println(circle.area());
+		
+		Shape shape = new Circle(2.5);
+		System.out.println(shape.area());
+		
 	}
 }
