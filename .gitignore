@@ -8,3 +8,4 @@ ds_store
 .ds_store
 .DS_Store
 *.log
+*.tmp
