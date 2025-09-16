@@ -4,6 +4,5 @@
 .classpath
 .settings/
 *.class\
-ds_store
 .ds_store
 .DS_Store
