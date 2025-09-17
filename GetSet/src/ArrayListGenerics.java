@@ -16,6 +16,6 @@ public class ArrayListGenerics {
 	// 	for(String topic : topics) {
 	// 		System.out.println(topic);
 	// 	}
-	// }
+	}
 
 }
