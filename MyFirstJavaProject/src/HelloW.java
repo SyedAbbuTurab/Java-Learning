@@ -25,6 +25,7 @@ public class HelloW {
 		}
 		
 		System.out.println("Your total is " + total);
+		scanner.close();
 	}
 
 }
