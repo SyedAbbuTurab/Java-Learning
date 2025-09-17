@@ -19,8 +19,8 @@ public class HashMaps {
 		} else {
 			System.out.println("Key already found");
 		}
-		System.out.println(cars.size());
-		System.out.println(cars.keySet());
+//		System.out.println(cars.size());
+//		System.out.println(cars.keySet());
 		
 		for(String car : cars.keySet()) {
 			System.out.println(car + " $" + cars.get(car));
