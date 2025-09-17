@@ -16,6 +16,10 @@ public class ArrayListGenerics {
 	// 	for(String topic : topics) {
 	// 		System.out.println(topic);
 	// 	}
+		Box<String, Double> grocery = new Box<>("Almonds", 10.99);
+		
+		System.out.println(grocery.getItem());
+		System.out.println(grocery.getPrice());
 	}
 
 }
