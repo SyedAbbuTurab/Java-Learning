@@ -31,7 +31,7 @@ public class enums {
 		case MONDAY, TUESDAY, WEDNESDAY, THURSDAY -> System.out.println("It's a week day!");
 		case SATURDAY -> System.out.println("It's a Weekend!");
 		case SUNDAY -> System.out.println("It's a Holiday");
-		default -> System.out.println("The day does'nt exist");
+		default -> System.out.println("The day doesn't exist");
 		
 		}
 		
